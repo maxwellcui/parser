@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration type="BDT">
+  <factory>
+    <option name="V">False</option>
+    <option name="Color">True</option>
+    <option name="Transformation"></option>
+    <option name="Silent">False</option>
+    <option name="DrawProgressBar">True</option>
+    <option name="AnalysisType">Classification</option>
+  </factory>
+  <method>
+    <option name="NTrees">800</option>
+    <option name="MaxDepth">3</option>
+    <option name="MinNodeSize">5</option>
+    <option name="nCuts">20</option>
+    <option name="BoostType">Grad</option>
+    <option name="AdaBoostR2Loss">Quadratic</option>
+    <option name="UseBaggedGrad">False</option>
+    <option name="Shrinkage">1</option>
+    <option name="AdaBoostBeta">0.5</option>
+    <option name="UseRandomisedTrees">False</option>
+    <option name="UseNvars">2</option>
+    <option name="UsePoissonNvars">True</option>
+    <option name="BaggedSampleFraction">0.6</option>
+    <option name="UseYesNoLeaf">True</option>
+    <option name="NegWeightTreatment">IgnoreNegWeightsInTraining</option>
+    <option name="NodePurityLimit">0.5</option>
+    <option name="SeparationType">GiniIndex</option>
+    <option name="DoBoostMonitor">False</option>
+    <option name="UseFisherCuts">False</option>
+    <option name="MinLinCorrForFisher">0.8</option>
+    <option name="UseExclusiveVars">False</option>
+    <option name="DoPreselection">False</option>
+    <option name="RenormByClass">False</option>
+    <option name="SigToBkgFraction">1</option>
+    <option name="PruneMethod">NoPruning</option>
+    <option name="PruneStrength">0</option>
+    <option name="PruneValFraction">0</option>
+    <option name="H">False</option>
+    <option name="V">False</option>
+  </method>
+  <data>
+    <option name="SplitMode">Random</option>
+    <option name="MixMode">SameAsSplitMode</option>
+    <option name="SplitSeed">100</option>
+    <option name="NormMode">None</option>
+    <option name="nTrain_Signal">0</option>
+    <option name="nTest_Signal">0</option>
+    <option name="nTrain_Background">0</option>
+    <option name="nTest_Background">0</option>
+    <option name="V">True</option>
+    <option name="VerboseLevel">Info</option>
+    <option name="Correlations">True</option>
+  </data>
+</configuration>
